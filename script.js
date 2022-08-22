@@ -12,7 +12,7 @@ function botonEncriptar(){
 }
 
 function encriptar(stringEncriptado){
-    let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o","ober"], ["u","ufat"]];
+    let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o","ober"], ["u","ufat"]]; 
     stringEncriptado = stringEncriptado.toLowerCase();
 
     for(let i = 0; i < matrizCodigo.length; i++) {
