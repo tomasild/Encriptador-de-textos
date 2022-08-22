@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2? family=Noto+Sans+HK:wght@700&family=Nova+Round&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+        <title>Encriptador de Textos</title>
+    </head>
+
+    <body>
+        <video src="Imagenes/seguridad.mp4" muted autoplay loop></video>
+
+        <header>
+            <a href="https://www.oracle.com/cl/education/oracle-next-education/">
+                <img class="logos" src="Imagenes/oracle.png" alt="logo oracle">
+            </a>
+            <a href="https://www.aluracursos.com/">
+                <img class="logos" src="Imagenes/LogoAlura.png" alt="Logo de Alura con la inicial de la letra a">
+            </a>
+            <a href="https://github.com/tomasild">
+                <img class="logos" src="Imagenes/github.png" alt="logo github">
+            </a>
+            <a href="https://www.linkedin.com/in/tomaslangerduran/">
+                <img class="logos" src="Imagenes/linkedin.png" alt="logo linkedin">
+            </a>
+        </header>
+
+        <main>
+            <section>
+                <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aquí"></textarea>
+                <div>
+                    <h5 class="informacion">Ingrese sólo letras minúsculas y sin acentos.</h5>
+                </div>
+                <div class="botones">
+                    <button class="encriptar" onclick="botonEncriptar()">
+                        Encriptar🔒
+                    </button>
+                    <button class="desencriptar" onclick="botonDesencriptar()">
+                        Desencriptar🔓
+                    </button>
+                    <button class="copiar" onclick="copiar()">
+                        Copiar ⭧
+                    </button>
+                </div>
+            </section>
+            <section>
+                <textarea class="mensaje" cols="18" rows="8"> </textarea>            
+            </section>
+        </main>
+       <script src="script.js"></script>
+    </body>
+    <footer>
+        <p class="nombre">Tomas Langer Duran - Programa ONE - Oracle - Alura Latam</p>
+    </footer>
+</html>
